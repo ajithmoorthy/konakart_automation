@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="40832" started-at="2019-10-04T13:01:09Z" finished-at="2019-10-04T13:01:49Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="40832" started-at="2019-10-04T13:01:09Z" finished-at="2019-10-04T13:01:49Z">
+      <class name="com.atmecs.konakart.testscripts.Welcome">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:com.atmecs.konakart.testscripts.Welcome@39c0f4a]" name="startReport" is-config="true" duration-ms="313" started-at="2019-10-04T13:01:08Z" finished-at="2019-10-04T13:01:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="baseSetup()[pri:0, instance:com.atmecs.konakart.testscripts.Welcome@39c0f4a]" name="baseSetup" is-config="true" duration-ms="31994" started-at="2019-10-04T13:01:09Z" finished-at="2019-10-04T13:01:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseSetup -->
+        <test-method status="PASS" signature="validateKonakart(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.konakart.testscripts.Welcome@39c0f4a]" name="validateKonakart" duration-ms="4999" started-at="2019-10-04T13:01:41Z" data-provider="welcomedata" finished-at="2019-10-04T13:01:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[The Dark Knight]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[(3 Reviews)]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[54.99]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[the dark knight]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateKonakart -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.konakart.testscripts.Welcome@39c0f4a]" name="tearDown" is-config="true" duration-ms="228" started-at="2019-10-04T13:01:46Z" finished-at="2019-10-04T13:01:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateKonakart status=SUCCESS method=Welcome.validateKonakart(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.konakart.testscripts.Welcome@39c0f4a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="validateKonakart(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.konakart.testscripts.Welcome@39c0f4a]" name="validateKonakart" duration-ms="2612" started-at="2019-10-04T13:01:47Z" data-provider="welcomedata" finished-at="2019-10-04T13:01:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows 8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[(3 Reviews)]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[79.99]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[windows 8agsdhk]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateKonakart -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.konakart.testscripts.Welcome@39c0f4a]" name="tearDown" is-config="true" duration-ms="86" started-at="2019-10-04T13:01:49Z" finished-at="2019-10-04T13:01:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateKonakart status=SUCCESS method=Welcome.validateKonakart(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.konakart.testscripts.Welcome@39c0f4a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.atmecs.konakart.testscripts.Welcome@39c0f4a]" name="endReport" is-config="true" duration-ms="4072" started-at="2019-10-04T13:01:49Z" finished-at="2019-10-04T13:01:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.atmecs.konakart.testscripts.Welcome -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
